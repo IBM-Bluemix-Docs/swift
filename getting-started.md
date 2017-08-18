@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-09"
+lastupdated: "2017-08-08"
 
 ---
 
@@ -15,19 +15,19 @@ lastupdated: "2017-06-09"
 {:download: .download}
 {:app_name: data-hd-keyref="app_name"}
 
-# Getting started with Swift on Bluemix
+# Getting started tutorial
 
 * {: download} Congratulations, you deployed a Hello World sample application on {{site.data.keyword.Bluemix}}!  To get started, follow this step-by-step guide. Or, <a class="xref" href="http://bluemix.net" target="_blank" title="(Download sample code)"><img class="hidden" src="../../images/btn_starter-code.svg" alt="Download application code" />download the sample code</a> and explore on your own.
 
-By following this guide, you'll set up a development environment, deploy an app locally and on {{site.data.keyword.Bluemix}}, and integrate a {{site.data.keyword.Bluemix}} database service in your app.
+By following this tutorial, you'll set up a development environment, deploy an app locally and on {{site.data.keyword.Bluemix}}, and integrate a {{site.data.keyword.Bluemix}} database service in your app.
 
-## Prerequisites
+## Before you begin
 {: #prereqs}
 * [Git ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://git-scm.com/downloads){: new_window}
 * [Cloud Foundry CLI ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cloudfoundry/cli#downloads){: new_window}
 * [Swift compiler ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://swift.org/download/) for your platform.
 
-## 1. Clone the sample app
+## Step 1: Clone the sample app
 {: #clone}
 
 Now you're ready to start working with the simple Swift app. Clone the repository and change to the directory to where the sample app is located.
@@ -43,7 +43,7 @@ cd get-started-swift
 
   Peruse the files in the *get-started-swift* directory to familiarize yourself with the contents.
 
-## 2. Run the app locally
+## Step 2: Run the app locally
 {: #run_locally}
 
 Once you have installed the Swift compiler and cloned this Git repository, you can now compile and run the application. Go to the root directory of this repository on your system and issue the following command:
@@ -69,7 +69,7 @@ Server is listening on port: 8080
 
 View your app at: http://localhost:8080
 
-## 3. Prepare the app for deployment
+## Step 3: Prepare the app for deployment
 {: #prepare}
 
 To deploy to {{site.data.keyword.Bluemix_notm}}, it can be helpful to set up a manifest.yml file. The manifest.yml includes basic information about your app, such as the name, how much memory to allocate for each instance and the route. We've provided a sample manifest.yml file in the `get-started-swift` directory.
@@ -90,7 +90,7 @@ Open the manifest.yml file, and change the `name` from `GetStartedSwift` to your
 In this manifest.yml file, **random-route: true** generates a random route for your app to prevent your route from colliding with others.  If you choose to, you can replace **random-route: true** with **host: myChosenHostName**, supplying a host name of your choice. [Learn more...](/docs/manageapps/depapps.html#appmanifest)
 {: tip}
 
-## 4. Deploy the app
+## Step 4: Deploy the app
 {: #deploy}
 
 You can use the Cloud Foundry CLI to deploy apps.
@@ -127,7 +127,7 @@ This can take a minute. If there is an error in the deployment process you can u
 
 When deployment completes you should see a message indicating that your app is running.  View your app at the URL listed in the output of the push command.  You can also issue the `cf apps` command to view your apps status and see the URL.
 
-## 5. Add a database
+## Step 5: Add a database
 {: #add_database}
 
 Next, we'll add a NoSQL database to this application and set up the application so that it can run locally and on {{site.data.keyword.Bluemix_notm}}.
@@ -141,7 +141,7 @@ Next, we'll add a NoSQL database to this application and set up the application 
 Environment variables enable you to separate deployment settings from your source code. For example, instead of hardcoding a database password, you can store this in an environment variable which you reference in your source code. [Learn more...](/docs/manageapps/depapps.html#app_env)
 {: tip}
 
-## 6. Use the database
+## Step 6: Use the database
 {: #use_database}
 
 We're now going to update your local code to point to this database. Create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in {{site.data.keyword.Bluemix_notm}}, the credentials will be read from the VCAP_SERVICES environment variable.
