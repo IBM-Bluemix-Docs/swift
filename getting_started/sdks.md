@@ -25,5 +25,5 @@ lastupdated: "2018-03-01"
 | [BMSGoogleAuthentication](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication) | 2.0.4 | Y | Y | N |
 | [BMSPush](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push) | 3.2.7 | Y | Y | N |
 | [BMSSecurity](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security) | 2.0.10 | Y | Y | N |
-| [{{site.data.keywork.openwhisk_short}} for iOS] | | | | Y |
+| [{{site.data.keyword.openwhisk_short}} for iOS] | | | | Y |
 | [KituraKit](https://github.com/IBM-Swift/KituraKit) | 0.0.19 | | | Y |
