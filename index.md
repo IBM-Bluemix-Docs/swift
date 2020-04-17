@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-07"
+  years: 2018, 2020
+lastupdated: "2020-04-14"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
 
@@ -81,16 +81,18 @@ The following tools ensure that you can install the native SDKs to work with the
 
 You can now add services to your Swift application. For this tutorial, add the {{site.data.keyword.cloudant_short_notm}} service to your Swift app, which creates a fully managed, distributed `JSON` document database. Cloudant powers your app with scalability, high availability, and durability in a lightweight framework that keeps your data safe and in sync.
 
-1. From the **App details** page, click **Add service**.
-2. Select **Data**, and click **Next**.
+1. From the **App details** page, click **Create service**.
+2. Select **Databases**, and click **Next**.
 3. Select **Cloudant**, and click **Next**.
-4. Click **Create**.
-5. Once the service is created, click it to start it. On this new page, select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.  Alternatively, this can be done programmatically.
+4. Select the Lite pricing plan, and click **Create**.
+5. After the service is provisioned, click **Download code** to regenerate the app with the SDK that connects to your service.
+6. In the **Services** card, click the Actions icon ![Actions icon](../../icons/actions-icon-vertical.svg), and select **Open dashboard**.
+7. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
 
 ## Step 4. Downloading the code and setting up client SDKs
 {: #run-locally-swift}
 
-To download the code, click **Download code** under `Apps` > `Your App`. The downloaded code comes with the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external} included, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
+To download the code, click **Download code** on the App details page. The downloaded code comes with the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external} included, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
 
 1. Extract the downloaded code. Then, using a terminal, navigate to the extracted folder.
   ```
@@ -145,4 +147,4 @@ You can add more services to your iOS app directly from the web console, such as
 ### Using {{site.data.keyword.cloud_notm}} developer tools
 {: #devtools-swift}
 
-You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer tools](/docs/cli?topic=cloud-cli-getting-started), which offer a command line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
+You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer tools](/docs/cli?topic=cloud-cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
