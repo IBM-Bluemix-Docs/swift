@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-01-28"
+lastupdated: "2020-05-05"
 
 keywords: authentication swift, security swift, forgot password swift, social swift, identity provider swift, tentantid swift, cloud directory swift
 
@@ -22,7 +22,7 @@ subcollection: swift
 # Adding user authentication
 {: #appid}
 
-Application security is incredibly complicated. For most Developers, it's one of the more difficult tasks of creating an app. How can you be sure that you're protecting your users information? By integrating {{site.data.keyword.appid_full}} into your apps, you can secure resources and add authentication, even when you don't have much security experience.
+Application security is incredibly complicated. For most developers, it's one of the more difficult tasks of creating an app. How can you be sure that you're protecting your users information? By integrating {{site.data.keyword.appid_full}} into your apps, you can secure resources and add authentication, even when you don't have much security experience.
 
 By requiring users to sign in, you can store user data such as app preferences (or information from public social profiles), and then use that data to customize each users experience within the app. {{site.data.keyword.appid_short_notm}} provides a log in framework for you, but you can also bring your own branded sign-in screens to use with cloud directory.
 
@@ -273,4 +273,4 @@ Having trouble? Check out [troubleshooting {{site.data.keyword.appid_short_notm}
 Great job! You added a level of security to your app. Keep the momentum by trying one of the following options:
 
 * Learn more about and take advantage of all of the features that {{site.data.keyword.appid_short_notm}} has to offer, [check out the docs](/docs/services/appid?topic=appid-getting-started#getting-started)!
-* Starter kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View the available starter kits in the [App Development console](https://{DomainName}/developer/appservice/starter-kits){: external}.
+* Starter kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View the available starter kits in the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}.

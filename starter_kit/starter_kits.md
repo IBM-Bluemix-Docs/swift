@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-01-10"
+lastupdated: "2020-05-05"
 
 keywords: swift starter kit, apple developer console, download code swift, app details swift, create swift app
 
@@ -21,7 +21,7 @@ subcollection: swift
 # Creating Swift apps with starter kits
 {: #starterkits-intro}
 
-The {{site.data.keyword.cloud_notm}} Developer Console for Apple enables Apple developers to create apps from various starter kits, provision and connect key {{site.data.keyword.cloud_notm}}-optimized services, and then quickly download working code or set up for continuous delivery. Users are able to create, view, configure, and manage your app, as well as download your app's code. Using starter kits helps you to quickly evaluate, and test {{site.data.keyword.cloud_notm}} services with a brand new app.
+The [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external} enables Apple developers to create apps from various starter kits, provision and connect key {{site.data.keyword.cloud_notm}}-optimized services, and then quickly download working code or set up for continuous delivery. Users are able to create, view, configure, and manage your app, as well as download your app's code. Using starter kits helps you to quickly evaluate, and test {{site.data.keyword.cloud_notm}} services with a brand new app.
 
 Ready to jump in? Go to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external} now to get started.
 {: tip}
@@ -29,7 +29,7 @@ Ready to jump in? Go to the [{{site.data.keyword.cloud_notm}} Developer Console 
 ## What is a starter kit?
 {: #starterkits-what}
 
-With the {{site.data.keyword.cloud_notm}} developer console, you can choose from various starter kits. Starter kits instruct {{site.data.keyword.cloud_notm}} to dynamically assemble a skeleton production app, in the language of your choice, ready for cloud deployment. Each starter kit embodies a language, a framework, and a pattern for a specific real-world use case that allows reusing code rather than reinventing it.
+With the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}, you can choose from various starter kits. Starter kits instruct {{site.data.keyword.cloud_notm}} to dynamically assemble a skeleton production app, in the language of your choice, ready for cloud deployment. Each starter kit embodies a language, a framework, and a pattern for a specific real-world use case that allows reusing code rather than reinventing it.
 
 Starter kits are production-ready, and focus on demonstrating a key pattern implementation by using a runtime (for example Swift). In some cases, starter kits offer a simple user experience to highlight the integration of the service. In other cases, stater kits represent a customizable implementation of a sophisticated use case.
 
@@ -38,7 +38,7 @@ Starter kits contain instructions that allow {{site.data.keyword.cloud_notm}} to
 ## Using the {{site.data.keyword.cloud_notm}} Developer Console for Apple
 {: #starterkits-journey}
 
-The {{site.data.keyword.cloud_notm}} Developer Console for Apple gives you a seamless path to building a Swift starter app for your specific use case. Let's look at the steps that you might take in your journey.
+The [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external} gives you a seamless path to building a Swift starter app for your specific use case. Let's look at the steps that you might take in your journey.
 
 ### Overview
 {: #overview_screen}
