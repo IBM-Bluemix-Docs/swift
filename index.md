@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-04-14"
+lastupdated: "2020-05-05"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
 
@@ -22,10 +22,10 @@ subcollection: swift
 # Getting started tutorial
 {: #getting-started}
 
-{{site.data.keyword.cloud}} offers solutions and services to enable Swift Developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services, and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
+{{site.data.keyword.cloud}} offers solutions and services to enable Swift developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services, and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
 {: shortdesc}
 
-The following tutorial shows how to easily create a Swift mobile app with {{site.data.keyword.mobileanalytics_full}} by using an empty Starter Kit from the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}. From the console, you add the {{site.data.keyword.mobileanalytics_short}} service, download the code, run the iOS app locally in Xcode, configure, and monitor the app.
+The following tutorial shows you how to easily create a Swift mobile app by using a starter kit from the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}. From the console, you add the Cloudant service, download the code, run the iOS app locally in Xcode, configure, and monitor the app.
 
 ## Step 1. Requirements for developers
 {: #dev-requirements-swift}
@@ -73,26 +73,25 @@ The following tools ensure that you can install the native SDKs to work with the
 {: #create-ios-app-swift}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}.
-2. Click **Create app**.
-3. On the [Empty Starter](https://{DomainName}/developer/appledevelopment/create-app){: external} page, you can use the default configuration, or update the fields as needed. Ensure that **iOS Swift** is the selected language. Click **Create**.
+2. Click **Create App**, and then select the **Create** tab.
+3. On the Create App page, you can use the default configuration, or update the fields as needed. Ensure that **iOS Swift** is the selected language. Click **Create**.
 
 ## Step 3. Adding the {{site.data.keyword.cloudant_short_notm}} service
 {: #resources-swift}
 
 You can now add services to your Swift application. For this tutorial, add the {{site.data.keyword.cloudant_short_notm}} service to your Swift app, which creates a fully managed, distributed `JSON` document database. Cloudant powers your app with scalability, high availability, and durability in a lightweight framework that keeps your data safe and in sync.
 
-1. From the **App details** page, click **Create service**.
+1. On the App details page, click **Create service**.
 2. Select **Databases**, and click **Next**.
 3. Select **Cloudant**, and click **Next**.
 4. Select the Lite pricing plan, and click **Create**.
-5. After the service is provisioned, click **Download code** to regenerate the app with the SDK that connects to your service.
-6. In the **Services** card, click the Actions icon ![Actions icon](../../icons/actions-icon-vertical.svg), and select **Open dashboard**.
-7. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
+5. In the **Services** card, click the Actions icon ![Actions icon](../../icons/actions-icon-vertical.svg), and select **Open dashboard**.
+6. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
 
 ## Step 4. Downloading the code and setting up client SDKs
 {: #run-locally-swift}
 
-To download the code, click **Download code** on the App details page. The downloaded code comes with the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external} included, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
+To download the code, click **Download code** on the App details page. The downloaded code includes the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external}, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
 
 1. Extract the downloaded code. Then, using a terminal, navigate to the extracted folder.
   ```
@@ -139,7 +138,7 @@ Now that you have a working database connection and SDK set up, you can begin bu
 ### Adding more services
 {: #moreresources-swift}
 
-You can add more services to your iOS app directly from the web console, such as the following commonly used services:
+You can add more services to your iOS app directly from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, such as the following commonly used services:
 
 * [Adding the Push Notifications service](/docs/services/mobilepush?topic=mobile-pushnotification-gettingstartedtemplate)
 * [Adding user authentication with App ID](/docs/services/appid?topic=appid-getting-started)
@@ -147,4 +146,4 @@ You can add more services to your iOS app directly from the web console, such as
 ### Using {{site.data.keyword.cloud_notm}} developer tools
 {: #devtools-swift}
 
-You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer tools](/docs/cli?topic=cloud-cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
+You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer Tools commands](/docs/cli?topic=cloud-cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
