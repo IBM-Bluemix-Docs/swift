@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-06-05"
 
 keywords: deploy swift app, deploy swift, serverless swift, deploy swift cloud foundry, swift kubernetes
 
@@ -24,7 +24,7 @@ subcollection: swift
 
 You can deploy your Swift apps with a toolchain or by using the command-line interface. A toolchain is a set of tool integrations. The command-line interface is a simple way to deploy your apps and service instances.
 
-For more information, see [Deploying apps](/docs/apps?topic=creating-apps-deploying-apps).
+For more information, see [Deploying apps](/docs/apps?topic=apps-deploying-apps).
 
 ## Developing serverless Swift apps
 {: #serverless-swift}
@@ -34,7 +34,7 @@ To facilitate serverless development, you can use the IBM Function as a Service 
 {{site.data.keyword.openwhisk_short}} performs system administration like auto-scaling, availability management, and maintenance, allowing developers to remain focused on writing application logic.
 
 For more information, see:
-* [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless)
+* [Developing serverless apps](/docs/apps?topic=apps-serverless)
 * [IBM Cloud Functions](https://www.ibm.com/cloud/functions){: external}
 * [FaaS (Function-as-a-Service)](https://www.ibm.com/cloud/learn/faas){: external}
 

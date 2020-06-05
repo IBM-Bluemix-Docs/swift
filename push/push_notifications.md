@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-05-05"
+lastupdated: "2020-06-05"
 
 keywords: push swift, swift notifications, push notifications swift, sending push swift, configure service instance swift, provider credentials swift
 
@@ -137,7 +137,7 @@ The {{site.data.keyword.mobilepushshort}} service provides a monitoring utility 
 ## Next steps
 {: #next-push notoc}
 
- - To learn more about the service and take advantage of all of the features, read through our [documentation](/docs/services/mobilepush?topic=mobile-pushnotification-overview-push).
+ - To learn more about the service and take advantage of all of the features, read through our [documentation](/docs/mobilepush?topic=mobilepush-getting-started).
 
  - For an introduction to working with Mobile services and {{site.data.keyword.cloud_notm}}, see [Getting started with Mobile apps on {{site.data.keyword.cloud_notm}}](/docs/services/mobile?topic=mobile-about).
 

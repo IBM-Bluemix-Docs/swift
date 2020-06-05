@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-05-05"
+lastupdated: "2020-06-05"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
 
@@ -146,4 +146,4 @@ You can add more services to your iOS app directly from the [{{site.data.keyword
 ### Using {{site.data.keyword.cloud_notm}} developer tools
 {: #devtools-swift}
 
-You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer Tools commands](/docs/cli?topic=cloud-cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
+You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer Tools commands](/docs/cli?topic=cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.

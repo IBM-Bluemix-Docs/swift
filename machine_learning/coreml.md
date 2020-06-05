@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-02-27"
+lastupdated: "2020-06-05"
 
 keywords: coreml swift, core ml swift, watson swift core, create model swift, image classification swift, version parameter swift, swift coreml watson
 
@@ -192,5 +192,4 @@ To add {{site.data.keyword.visualrecognitionshort}} to a starter kit, complete t
 Now you can analyze images by using your own custom-generated Core ML models. Keep the momentum by trying one of the following options:
 
 * Check out the [{{site.data.keyword.watson}} Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external} and explore the other supported Watson services.
-* Add cloud logic. Start with [developing serverless apps](/docs/swift/backend?topic=swift-serverless-dev-swift#serverless-dev-swift).
 * Take advantage of all the features that {{site.data.keyword.visualrecognitionshort}} offers. See the [documentation](/docs/services/visual-recognition?topic=visual-recognition-index#index) for more details.

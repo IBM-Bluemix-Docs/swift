@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-01-21"
+lastupdated: "2020-06-05"
 
 keywords: swift security, add security swift, crypto swift, hyper protect swift, ios hyper protect, dbaas swift, swift key management, swift advanced security
 
@@ -23,8 +23,6 @@ subcollection: swift
 
 Swift Developers can easily use advanced security services that {{site.data.keyword.cloud}} offers to protect their keys and data at rest, in use, or in transit at the industry highest security level.
 {: shortdesc}
-
-As an easy approach, you can directly use the {{site.data.keyword.cloud_notm}} HyperSecure Platform Services for all advanced security services in {{site.data.keyword.cloud}}. For more information, see [Getting Started with {{site.data.keyword.cloud_notm}} HyperSecure Platform Services](/docs/services/hypersecure-platform?topic=hypersecure-platform-getting-started-with-ibm-cloud-hyper-protect-developer-starter-kits).
 
 ## Using {{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}}
 {: #security-swift}
@@ -58,8 +56,3 @@ With this service, you can create database clusters in the {{site.data.keyword.c
  * Data is encrypted at rest and in flight.
  * The system hardware, the system configuration, and the database setup ensure high availability.
  * The underlying technologies prevent {{site.data.keyword.IBM_notm}} or a third party from being able to access your data.
-
-### Learning more about {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS
-{: #swift-learnmore}
-
-To learn more about {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS, see [Getting Started with IBM Cloud Hyper Protect DBaaS](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-gettingstarted#gettingstarted).

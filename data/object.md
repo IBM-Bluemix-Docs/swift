@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-07"
+  years: 2018, 2020
+lastupdated: "2020-06-05"
 
 keywords: object storage swift, static storage swift, file services swift, swift storage class, cos swift, swift data encryption, static swift
 
@@ -91,7 +91,7 @@ Geographic location considerations:
 
 Depending on your use case, you can reduce costs by selecting a service plan that meets your needs. Archival operations that involve minimal access to the object store, do not need the speed and durability of a frequently accessed object, and this distinction is reflected in the Storage Class support and pricing plan for your applications. Storage classes are defined at the bucket level, so you can use a combination of plans to suit your needs. Create a bucket that is set to the storage class that you want to use.
 
-More information about the pricing is available from the [{{site.data.keyword.cos_short}} Storage Class](/docs/services/cloud-object-storage/help?topic=cloud-object-storage-billing#ibm-cos-pricing) documentation.
+More information about the pricing is available from the [{{site.data.keyword.cos_short}} Storage pricing](/docs/cloud-object-storage/help?topic=cloud-object-storage-billing#billing-pricing) documentation.
 
 ### Sample Storage Classes
 {: #samples-cos}

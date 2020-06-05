@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-10"
+  years: 2018, 2020
+lastupdated: "2020-06-05"
 
 keywords: swift logging, ios logging, debug swift, add logging swift, heliumlogger swift, loggerapi swift, logger swift, starter kit swift logger
 
@@ -21,7 +21,7 @@ subcollection: swift
 # Logging in Swift
 {: #logging_swift}
 
-Log messages are strings with contextual information about the state and activity of the microservice at the time that the log entry is made. Logs are required to diagnose how and why services fail, and plays a supporting role to [app metrics](/docs/swift/cloudnative?topic=swift-metrics#metrics) in monitoring application health.
+Log messages are strings with contextual information about the state and activity of the microservice at the time that the log entry is made. Logs are required to diagnose how and why services fail, and plays a supporting role in monitoring application health.
 
 Given the transient nature of processes in cloud environments, logs must be collected and sent elsewhere, usually to a centralized location for analysis. The most consistent way to log in cloud environments is to send log entries to standard output and error streams, which leaves the infrastructure to handle the rest.
 
@@ -63,7 +63,7 @@ Swift apps that are created by using the {{site.data.keyword.cloud_notm}} App Se
 ```
 {: screen}
 
-These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) and `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: external}.
+These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli?topic=cli-ibmcloud_commands_apps#ibmcloud_app_logs) and `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: external}.
 
 In the `/Sources/AppName/main.swift` file, you can see the following code:
 ```swift
@@ -77,12 +77,7 @@ The log level is explicitly set to `.info` to log informational level messages l
 ## Next steps
 {: #next-logging notoc}
 
-Learn more about viewing the logs in each of your deployment targets:
-* [Kubernetes Logs](https://kubernetes.io/docs/concepts/cluster-administration/logging/#basic-logging-in-kubernetes){: external}
-* [Cloud Foundry Logs](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#ibmcloud_cli)
-* [Cloud Foundry Enterprise Environment - Auditing and logging](/docs/cloud-foundry?topic=cloud-foundry-auditing-logging#auditing-logging)
-* [{{site.data.keyword.openwhisk}} Logs & Monitoring](/docs/openwhisk?topic=cloud-functions-logs)
-
-Learn how to implement and use a log aggregator:
-* [{{site.data.keyword.cloud_notm}} Log Analysis](/docs/services/CloudLogAnalysis?topic=cloudloganalysis-log_analysis_ov#log_analysis_ov)
-* [{{site.data.keyword.cloud_notm}} Private ELK stack](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.2/manage_metrics/logging_elk.html){: external}
+Learn more about viewing logs in each deployment environment:
+* [Managing Kubernetes cluster logs with IBM Log Analysis with LogDNA](/docs/Log-Analysis-with-LogDNA?topic=Log-Analysis-with-LogDNA-kube)
+* [Managing logs from CF resources](/docs/Log-Analysis-with-LogDNA?topic=Log-Analysis-with-LogDNA-monitor_cfapp_logs)
+* [{{site.data.keyword.openwhisk}} Logs & Monitoring](/docs/openwhisk?topic=openwhisk-logs)

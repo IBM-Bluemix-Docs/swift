@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-03-26"
+lastupdated: "2020-06-05"
 
 keywords: develop swift, swift local, service credentials swift, developer tools swift, swift cli, ibmcloud build swift, ibmcloud swift
 
@@ -32,7 +32,7 @@ curl -sL https://ibm.biz/idt-installer | bash
 ```
 {: codeblock}
 
-See [Setting up the {{site.data.keyword.dev_cli_notm}} CLI](/docs/cli?topic=cloud-cli-getting-started) to learn more about the configuration and use of the {{site.data.keyword.dev_cli_notm}}.
+See [Setting up the {{site.data.keyword.dev_cli_notm}} CLI](/docs/cli?topic=cli-getting-started) to learn more about the configuration and use of the {{site.data.keyword.dev_cli_notm}}.
 
 ## Retrieving the service credentials
 {: #credentials-local}

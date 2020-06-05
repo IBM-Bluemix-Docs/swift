@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-12-04"
+  years: 2018, 2020
+lastupdated: "2020-06-05"
 
 keywords: swift-cfenv, service bindings swift, environment swift, swift configuration, cloudenvironment swift, VCAP_SERVICES swift, swift credentials
 
@@ -121,7 +121,7 @@ For more information about the `mappings.json` file, check out the [Understandin
 ## Using the Swift configuration manager from starter kit apps
 {: #configmanager-swift}
 
-Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: external} automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started), [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf), and [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about).
+Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: external} automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started) and [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started).
 
 The basic creation of the configuration manager can be found in `Sources/Application/Application.swift`. When you create a Swift-based Starter Kit app with services, a `config` folder and `mappings.json` file is created for you. If you download your app, the `config` folder includes a `localdev-config.json` file that has all of the credentials for your services, and is present in the `.gitignore` file.
 
