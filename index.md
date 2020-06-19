@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-06-19"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
 
@@ -140,7 +140,7 @@ Now that you have a working database connection and SDK set up, you can begin bu
 
 You can add more services to your iOS app directly from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, such as the following commonly used services:
 
-* [Adding the Push Notifications service](/docs/services/mobilepush?topic=mobile-pushnotification-gettingstartedtemplate)
+* [Adding the Push Notifications service](/docs/mobilepush?topic=mobilepush-gettingstartedtemplate)
 * [Adding user authentication with App ID](/docs/services/appid?topic=appid-getting-started)
 
 ### Using {{site.data.keyword.cloud_notm}} developer tools

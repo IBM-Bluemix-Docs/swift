@@ -21,7 +21,7 @@ subcollection: swift
 
 By developing locally, you can easily build, run, and test Swift apps. You use the {{site.data.keyword.dev_cli_short}} to perform these actions by usings standard commands. 
 
-You can use the {{site.data.keyword.dev_cli_short}} to manage your server-side applications with more than a dozen commands. Learn more about the various commands at [{{site.data.keyword.dev_cli_notm}} `ibmcloud dev` commands](/docs/cli/idt?topic=cloud-cli-idt-cli).
+You can use the {{site.data.keyword.dev_cli_short}} to manage your server-side applications with more than a dozen commands. Learn more about the various commands at [{{site.data.keyword.dev_cli_notm}} `ibmcloud dev` commands](/docs/cli?topic=cli-idt-cli).
 
 ## Before you begin
 {: #prereqs-local}

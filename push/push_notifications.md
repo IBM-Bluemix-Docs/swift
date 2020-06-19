@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-06-19"
 
 keywords: push swift, swift notifications, push notifications swift, sending push swift, configure service instance swift, provider credentials swift
 
@@ -27,7 +27,7 @@ Enhance your Swift app by using {{site.data.keyword.mobilepushshort}} service on
  - Customers can choose to subscribe to specific tags or topics for notification.
  - Enables the app owner to analyze the number of devices that are registered to receive notifications and the number of notifications sent.
 
-You can choose to use the {{site.data.keyword.mobilepushshort}} service either as a part of MobileFirst Services Starter Boilerplate or as {{site.data.keyword.cloud_notm}} [Dedicated Services](/docs/dedicated?topic=dedicated-dedicated#dedicated). You can also use an SDK (software development kit) and [REST APIs](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: external} to further develop your client applications.
+You can use the {{site.data.keyword.mobilepushshort}} service as a part of MobileFirst Services Starter Boilerplate. You can also use an SDK (software development kit) and [REST APIs](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: external} to further develop your client applications.
 
 ![Push overview](images/push_notification_lifecycle.jpg "Push overview"){: caption="Figure 1. Overview of the {{site.data.keyword.mobilepushshort}} service lifecycle" caption-side="bottom"}
 
@@ -53,7 +53,7 @@ First, be sure that you have the following prerequisites ready to go:
 ## Step 2. Obtain your notification provider credentials
 {: #get_creds-push}
 
-To set up Push Notifications service, you need to get the required credentials from the Apple Push Notification Service (APNs). Follow the steps here to [obtain and configure your APNs credentials](/docs/services/mobilepush?topic=mobile-pushnotification-push_step_1).
+To set up Push Notifications service, you need to get the required credentials from the Apple Push Notification Service (APNs). Follow the steps here to [obtain and configure your APNs credentials](/docs/mobilepush?topic=mobilepush-push_step_1).
 
 
 ## Step 3. Configure a service instance
