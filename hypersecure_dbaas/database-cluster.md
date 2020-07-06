@@ -81,8 +81,6 @@ is Swift 4.0 with MongoKitten SDK 4.0.0.
 
 You need a starter kit that is based on the server-side Swift web framework Kitura.
 
-![Feature Details](videos/StarterKit.gif){: gif}
-
 Use an existing project that was created from this starter kit, or create a new project.
 
 1. Open the [{{site.data.keyword.cloud_notm}} App Service dashboard](https://{DomainName}/developer/appservice/dashboard){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").

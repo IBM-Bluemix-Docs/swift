@@ -98,8 +98,6 @@ The Feature Details window can export the feature as a JSON file, which can be u
 ## Step 4. Creating an audience
 {: #audience-applaunch}
 
-![Create Audience](images/create_audience_animated.gif){: gif}
-
 To create an audience, complete the following steps:
 
 ### Creating an **audience attribute**:
@@ -136,8 +134,6 @@ An Engagement is an instantiation of a Feature with properties initialized and a
 Through this engagement, an app owner can control the visibility of a feature by enabling or disabling it at run time. A feature can be enabled or disabled to all the application users or to a specific set of users and devices.
 
 Feature roll outs can be scheduled and coordinated by defining a start or end time and date. You can also choose a specific day on which a defined feature is to be enabled or disabled.
-
-![animated gif](images/create_engagement.gif){: gif}
 
 Complete the following steps to create an engagement by using the Feature Control:
 
