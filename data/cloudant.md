@@ -10,7 +10,6 @@ subcollection: swift
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -41,7 +40,7 @@ The [{{site.data.keyword.cloudant_short_notm}} SDK for Swift](https://github.com
 ## Step 1. Creating an instance of {{site.data.keyword.cloudant_short_notm}}
 {: #create-instance-cloudant}
 
-See [Creating an IBM Cloudant instance on {{site.data.keyword.cloud_notm}} tutorial](/docs/Cloudant?topic=Cloudant-creating-an-ibm-cloudant-instance-on-ibm-cloud){:new_window} to create an instance of the service.
+See [Creating an IBM Cloudant instance on {{site.data.keyword.cloud_notm}} tutorial](/docs/Cloudant?topic=Cloudant-creating-an-ibm-cloudant-instance-on-ibm-cloud){: external} to create an instance of the service.
 
 ## Step 2. Installing the SDK
 {: #install-sdk-cloudant}

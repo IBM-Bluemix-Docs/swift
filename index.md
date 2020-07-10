@@ -10,7 +10,6 @@ subcollection: swift
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -85,7 +84,7 @@ You can now add services to your Swift application. For this tutorial, add the {
 2. Select **Databases**, and click **Next**.
 3. Select **Cloudant**, and click **Next**.
 4. Select the Lite pricing plan, and click **Create**.
-5. In the **Services** card, click the Actions icon ![Actions icon](../../icons/actions-icon-vertical.svg), and select **Open dashboard**.
+5. In the **Services** card, click the Actions icon ![Actions icon](../icons/actions-icon-vertical.svg), and select **Open dashboard**.
 6. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
 
 ## Step 4. Downloading the code and setting up client SDKs

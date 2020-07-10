@@ -10,7 +10,6 @@ subcollection: swift
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
@@ -64,7 +63,7 @@ From the **Create app** view, you can name your app and edit the default resourc
 ## Viewing app details
 {: #app_details_view}
 
-After you create your app, you can view your app's details. The App details page displays a list of services that are configured for your app. For each item in the list, you can see the service name, links to other information, and actions that you can take. By clicking the Actions icon ![Actions icon](../../icons/actions-icon-vertical.svg), you can remove the service from your app, open the service's dashboard, and delete the service. Removing a service instance removes the association to this app but does not delete the service instance. Also, the service credentials are consolidated on this view, so you don't have to visit each individual service instance to get them.
+After you create your app, you can view your app's details. The App details page displays a list of services that are configured for your app. For each item in the list, you can see the service name, links to other information, and actions that you can take. By clicking the Actions icon ![Actions icon](../icons/actions-icon-vertical.svg), you can remove the service from your app, open the service's dashboard, and delete the service. Removing a service instance removes the association to this app but does not delete the service instance. Also, the service credentials are consolidated on this view, so you don't have to visit each individual service instance to get them.
 
 ![App details in {{site.data.keyword.cloud_notm}} Developer Console for Apple](images/app_details_screen.png "App Details view"){: caption="Figure 4. App details in {{site.data.keyword.cloud_notm}} Developer Console for Apple" caption-side="bottom"}
 
