@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-06-19"
+lastupdated: "2020-08-11"
 
 keywords: push swift, swift notifications, push notifications swift, sending push swift, configure service instance swift, provider credentials swift
 
@@ -28,7 +28,7 @@ Enhance your Swift app by using {{site.data.keyword.mobilepushshort}} service on
 
 You can use the {{site.data.keyword.mobilepushshort}} service as a part of MobileFirst Services Starter Boilerplate. You can also use an SDK (software development kit) and [REST APIs](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: external} to further develop your client applications.
 
-![Push overview](images/push_notification_lifecycle.jpg "Push overview"){: caption="Figure 1. Overview of the {{site.data.keyword.mobilepushshort}} service lifecycle" caption-side="bottom"}
+![Push overview](images/push_notification_lifecycle.svg "Push overview"){: caption="Figure 1. Overview of the {{site.data.keyword.mobilepushshort}} service lifecycle" caption-side="bottom"}
 
 ## Before you begin
 {: #prereqs-push}
