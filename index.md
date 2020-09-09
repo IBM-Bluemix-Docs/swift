@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-06-19"
+lastupdated: "2020-09-09"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
 
@@ -34,7 +34,7 @@ To get started with iOS development on {{site.data.keyword.cloud_notm}}, make su
 ### Operating system
 {: #swift-os-requirements}
 
-The best practice for developing Swift apps is by using the latest MacOS supported hardware, and testing with the latest iOS releases. Sign up for an [Apple Developer](https://developer.apple.com/){: external} account to enable testing on a physical device.
+The best practice for developing Swift apps is by using the latest macOS supported hardware, and testing with the latest iOS releases. Sign up for an [Apple Developer](https://developer.apple.com/){: external} account to enable testing on a physical device. 
 
 ### iOS and Xcode
 {: #ios_and_xcode}
@@ -68,14 +68,15 @@ The following tools ensure that you can install the native SDKs to work with the
   ```
   {: codeblock}
 
-## Step 2. Creating a custom iOS Swift app
+## Step 2. Create a custom iOS Swift app
 {: #create-ios-app-swift}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}.
-2. Click **Create App**, and then select the **Create** tab.
-3. On the Create App page, you can use the default configuration, or update the fields as needed. Ensure that **iOS Swift** is the selected language. Click **Create**.
+1. Log in to your {{site.data.keyword.cloud_notm}} account. If you don't have an account, you can [register for a free account](https://{DomainName}/registration){: external}. For more information, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started).
+2. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}.
+3. Click **Create App**, and then select the **Create** tab.
+4. On the Create App page, you can use the default configuration, or update the fields as needed. Ensure that **iOS Swift** is the selected language. Click **Create**.
 
-## Step 3. Adding the {{site.data.keyword.cloudant_short_notm}} service
+## Step 3. Add the {{site.data.keyword.cloudant_short_notm}} service
 {: #resources-swift}
 
 You can now add services to your Swift application. For this tutorial, add the {{site.data.keyword.cloudant_short_notm}} service to your Swift app, which creates a fully managed, distributed `JSON` document database. Cloudant powers your app with scalability, high availability, and durability in a lightweight framework that keeps your data safe and in sync.
@@ -87,7 +88,7 @@ You can now add services to your Swift application. For this tutorial, add the {
 5. In the **Services** card, click the Actions icon ![Actions icon](../icons/actions-icon-vertical.svg), and select **Open dashboard**.
 6. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
 
-## Step 4. Downloading the code and setting up client SDKs
+## Step 4. Download the code and setting up client SDKs
 {: #run-locally-swift}
 
 To download the code, click **Download code** on the App details page. The downloaded code includes the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external}, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
@@ -134,7 +135,7 @@ Now that you have a working database connection and SDK set up, you can begin bu
 ## Next steps
 {: #next-swift}
 
-### Adding more services
+### Add more services
 {: #moreresources-swift}
 
 You can add more services to your iOS app directly from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, such as the following commonly used services:
@@ -142,7 +143,7 @@ You can add more services to your iOS app directly from the [{{site.data.keyword
 * [Adding the Push Notifications service](/docs/mobilepush?topic=mobilepush-gettingstartedtemplate)
 * [Adding user authentication with App ID](/docs/services/appid?topic=appid-getting-started)
 
-### Using {{site.data.keyword.cloud_notm}} developer tools
+### {{site.data.keyword.cloud_notm}} developer tools
 {: #devtools-swift}
 
 You can also learn how to develop Swift apps by using the [{{site.data.keyword.cloud_notm}} Developer Tools commands](/docs/cli?topic=cli-getting-started), which offer a command-line approach to creating, developing, and deploying complete web, mobile, and microservice applications.
