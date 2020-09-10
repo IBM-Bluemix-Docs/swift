@@ -21,7 +21,7 @@ subcollection: swift
 # Getting started tutorial
 {: #getting-started}
 
-{{site.data.keyword.cloud}} offers solutions and services to enable Swift developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services, and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
+{{site.data.keyword.cloud}} offers solutions and services to enable Swift developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
 {: shortdesc}
 
 The following tutorial shows you how to easily create a Swift mobile app by using a starter kit from the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}. From the console, you add the Cloudant service, download the code, run the iOS app locally in Xcode, configure, and monitor the app.
