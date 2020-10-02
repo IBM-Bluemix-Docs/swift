@@ -7,41 +7,41 @@ Programming with Swift on IBM Cloud
     {: .navgroup id="learn"}
     index.md
     apple_development.md
-    starter_kit/starter_kits.md
+    starter_kits.md
     [What are cloud native apps?](https://www.ibm.com/cloud/learn/cloud-native)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     installing_sdks.md
-    push/push_notifications.md
+    push_notifications.md
     
     {: .topicgroup}
     Securing Swift apps
-        authenticate/app_id.md
-        security/advanced_security.md
+        app_id.md
+        advanced_security.md
 
     {: .topicgroup}
     Storing and sharing data
-        data/cloudant.md
-        data/sql.md
-        data/object.md
+        cloudant.md
+        sql.md
+        object.md
 
     {: .topicgroup}
     Adding Watson AI services
-        machine_learning/conversation.md
-        machine_learning/recognition.md
-        machine_learning/tone.md
+        conversation.md
+        recognition.md
+        tone.md
 
     {: .topicgroup}
     Using machine learning
-        machine_learning/coreml.md
-        machine_learning/dsx.md
+        coreml.md
+        dsx.md
 
     {: .topicgroup}
     Developing server-side Swift apps
-        cloudnative/configuration.md
-        cloudnative/healthcheck.md
-        cloudnative/logging.md
+        configuration.md
+        healthcheck.md
+        logging.md
     
     deploying_apps.md
     {: .navgroup-end}
@@ -49,8 +49,9 @@ Programming with Swift on IBM Cloud
     {: .navgroup id="reference"}
     sdk.md
     [API Docs](https://cloud.ibm.com/apidocs)
-    [Code Patterns](https://developer.ibm.com/patterns/category/swift/)
-    [IBM Cloud Developer Center](https://developer.ibm.com/swift/)
+    [Swift@IBM](https://developer.ibm.com/technologies/swift/)
+    [Code Patterns](https://developer.ibm.com/technologies/swift/patterns/)
+    [Mobile development](https://developer.ibm.com/technologies/mobile/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

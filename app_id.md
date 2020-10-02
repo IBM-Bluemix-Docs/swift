@@ -33,7 +33,7 @@ For all of the ways that you can use {{site.data.keyword.appid_short_notm}} and 
 First, be sure that you have the following prerequisites ready to go:
 * CocoaPods (version 1.1.0 or higher)
 * iOS (version 9 or higher)
-* MacOS (version 10.11.5 or higher)
+* macOS (version 10.11.5 or higher)
 * Xcode (version 9.0.1 or higher)
 
 ## Step 1. Creating an instance of {{site.data.keyword.appid_short_notm}}

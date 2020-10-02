@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-06-19"
+lastupdated: "2020-07-10"
 
 keywords: cloudant swift, store data swift, dbaas swift, cloudant instance swift, initialize sdk swift, create document swift, read document swift, delete document swift
 
@@ -31,10 +31,10 @@ For all of the ways that you can use {{site.data.keyword.cloudant_short_notm}}, 
 First, be sure that you have the following prerequisites ready to go:
  * CocoaPods (version 1.1.0 or higher
  * iOS (version 9 or higher)
- * MacOS (version 10.11.5 or higher)
+ * macOS (version 10.11.5 or higher)
  * Xcode (version 9.0.1 or higher)
 
-The [{{site.data.keyword.cloudant_short_notm}} SDK for Swift](https://github.com/cloudant/swift-cloudant){: external} is built with Swift 3.2. If you're planning to use {{site.data.keyword.cloudant_short_notm}} with Kitura, check out [Kitura-CouchDB Library](https://github.com/IBM-Swift/Kitura-CouchDB){: external}, which is built with Swift 4.0.
+The [{{site.data.keyword.cloudant_short_notm}} SDK for Swift](https://github.com/cloudant/swift-cloudant){: external} is built with Swift 3.2.
 {: tip}
 
 ## Step 1. Creating an instance of {{site.data.keyword.cloudant_short_notm}}

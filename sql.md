@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2020
 lastupdated: "2020-01-21"
 
-keywords: sql swift, database swift, persistence swift, data swift, orm swift, kuery swift, kitura swift
+keywords: sql swift, database swift, persistence swift, data swift, orm swift, kuery swift, swift
 
 subcollection: swift
 

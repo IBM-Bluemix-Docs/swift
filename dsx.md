@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-12"
+  years: 2018, 2020
+lastupdated: "2020-08-03"
 
 keywords: watson studio swift, machine learning swift, custom model swift, data set swift, predictive swift, watson api swift, generated model swift, dataset swift
 
@@ -219,9 +219,8 @@ client.retrieveToken { token in
 
 Great job! Now you can analyze data sets by using custom generated machine learning models. Keep the momentum by learning more about the features that {{site.data.keyword.pm_short}} has to offer at [Data science and machine learning](https://www.ibm.com/analytics/machine-learning){: external}.
 
-### Related Links
+### Related links
 {: #dsx-related}
 
-* [{{site.data.keyword.pm_short}}](/docs/services/PredictiveModeling?topic=PredictiveModeling-WMLgettingstarted)
 * [{{site.data.keyword.DSX}}](https://www.ibm.com/cloud/watson-studio){: external}
 * [{{site.data.keyword.DSX}} documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html){: external}

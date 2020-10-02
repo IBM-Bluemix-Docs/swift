@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-05"
+  years: 2018, 2020
+lastupdated: "2020-07-10"
 
 keywords: liveness probe swift, readiness probe swift, health swift, healthcheck swift, swift app status, kubernetes endpoint swift, health endpoint swift, swift health check
 
@@ -95,14 +95,13 @@ To add the Health library to an existing Swift app, see the following steps:
 ## Checking the health of a server-side Swift starter kit app
 {: #healthcheck-starterkit}
 
-When you generate a Kitura-based Swift app by using a starter kit, a basic health check endpoint, `/health`, is included by default. The endpoint uses the Codable protocol available in Swift 4, as supported by the [Health](https://github.com/IBM-Swift/Health){: external} library.
+When you generate a server-side Swift app by using a starter kit, a basic health check endpoint, `/health`, is included by default. The endpoint uses the Codable protocol available in Swift 4, as supported by the [Health](https://github.com/IBM-Swift/Health){: external} library.
 
 Basic initialization code, such as the initialization of the Health object occurs in `Sources/Application.swift`. The health check endpoint itself is provided by the `/Sources/Application/Routes/HealthRoutes.swift` file, and uses the following code:
 
 ```swift
 import LoggerAPI
 import Health
-import KituraContracts
 
 func initializeHealthRoutes(app: App) {
 

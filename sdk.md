@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-06"
+  years: 2017, 2020
+lastupdated: "2020-10-02"
 
 keywords: swift client sdk, swift sdk, add sdk swift, swift sdk service, server sdk swift, swift bms, clientsdk swift, client storage swifts
 
@@ -29,12 +29,9 @@ You can use the following SDKs in your mobile application to leverage their resp
 ### Adding Client SDK services
 {: #add-client-sdk}
 
-- [Core SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-core){: external}
 - [{{site.data.keyword.appid_short}} SDK](https://github.com/ibm-cloud-security/appid-clientsdk-swift){: external}
-- [{{site.data.keyword.mobileanalytics_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics){: external}
 - [{{site.data.keyword.mobilepushshort}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push){: external}
 - [BMSSecurity](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security){: external}
-- [{{site.data.keyword.engage_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch){: external}
 - [BMSGoogleAuthentication SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication){: external}
 - [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 
@@ -53,7 +50,6 @@ If you have a Swift server application, you can use the following SDKs to commun
 
 - [{{site.data.keyword.appid_short}} Swift Server SDK](https://github.com/ibm-cloud-security/appid-serversdk-swift){: external}
 - [{{site.data.keyword.openwhisk_short}} for iOS](https://{DomainName}/openwhisk/learn/ios-sdk){: external}
-- [KituraKit](https://github.com/IBM-Swift/KituraKit){: external}
 - [{{site.data.keyword.mobilepushshort}} Swift Server SDK](https://github.com/ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift){: external}
 - [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 

@@ -35,7 +35,7 @@ The following list outlines the flow of how the integration works:
 
 Ensure that you have the following prerequisites:
 
-* An instance of the [{{site.data.keyword.conversationshort}} service](/docs/services/assistant?topic=assistant-getting-started#getting-started)
+* An instance of the [{{site.data.keyword.conversationshort}} service](/docs/assistant?topic=assistant-getting-started#getting-started)
 * iOS 10.0+
 * Xcode 9.3+
 * Swift 4.1+
