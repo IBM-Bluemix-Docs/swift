@@ -34,7 +34,7 @@ The developer capabilities that are built in to {{site.data.keyword.cloud_notm}}
 
 * [**IBM Streaming Analytics**](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted#gettingstarted) helps wrangle and analyze data streams. It is an advanced analytic platform that you can use to ingest, analyze, and correlate information as it arrives from different types of data sources in real time.
 
-* The [**{{site.data.keyword.cloud_notm}} Continuous Delivery service**](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started) sets up a devops toolchain to automate continuous delivery of your app. You can easily enhance the toolchain to include management functions like monitoring, logging, tracking, and alerting. You can even apply advanced machine learning to your toolchain by using the [DevOps Insights](/docs/ContinuousDelivery?topic=ContinuousDelivery-di_working) tool integration.
+* The [**{{site.data.keyword.cloud_notm}} Continuous Delivery service**](/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started) sets up a devops toolchain to automate continuous delivery of your app. You can easily enhance the toolchain to include management functions like monitoring, logging, tracking, and alerting. You can even apply advanced machine learning to your toolchain by using the [DevOps Insights](/docs/ContinuousDelivery?topic=ContinuousDelivery-di_working) tool integration.
 
 The {{site.data.keyword.cloud_notm}} platform offers many more capabilities and can be used as your comprehensive development platform.
 
