@@ -2,10 +2,13 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-09-09"
+lastupdated: "2020-12-07"
 
 keywords: getting started swift, custom app, create app swift, stater kit swift, apple app swift, swift dependency, ios development
-
+content-type: tutorial
+services: 
+account-plan: lite
+completion-time: 30m
 subcollection: swift
 
 ---
@@ -17,17 +20,22 @@ subcollection: swift
 {:tip: .tip}
 {:note: .note}
 {:external: target="_blank" .external}
+{:step: data-tutorial-type='step'}
 
 # Getting started tutorial
 {: #getting-started}
+{: toc-content-type="tutorial"} 
+{: toc-services=""} 
+{: toc-completion-time="30m"}
 
-{{site.data.keyword.cloud}} offers solutions and services to enable Swift developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
+The following tutorial shows you how to create a Swift mobile app by using a starter kit from the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}. From the console, you add the Cloudant service, download the code, run the iOS app locally in Xcode, configure, and monitor the app.
 {: shortdesc}
 
-The following tutorial shows you how to easily create a Swift mobile app by using a starter kit from the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}. From the console, you add the Cloudant service, download the code, run the iOS app locally in Xcode, configure, and monitor the app.
+{{site.data.keyword.cloud}} offers solutions and services to enable Swift developers to build applications that are integrated with the security, AI, and value that your customers demand. With a broad portfolio of offerings and SDKs, you can use these services and bring cutting-edge applications to market quickly. This Swift programming explains how to add services to a new or existing Swift application, whether it's an iOS client or server-side Swift.
 
-## Step 1. Requirements for developers
+## Requirements for developers
 {: #dev-requirements-swift}
+{: step}
 
 To get started with iOS development on {{site.data.keyword.cloud_notm}}, make sure that you meet the following requirements.
 
@@ -68,16 +76,18 @@ The following tools ensure that you can install the native SDKs to work with the
   ```
   {: codeblock}
 
-## Step 2. Create a custom iOS Swift app
+## Create a custom iOS Swift app
 {: #create-ios-app-swift}
+{: step}
 
 1. Log in to your {{site.data.keyword.cloud_notm}} account. If you don't have an account, you can [register for a free account](https://{DomainName}/registration){: external}. For more information, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started).
 2. Log in to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external}.
 3. Click **Create App**, and then select the **Create** tab.
 4. On the Create App page, you can use the default configuration, or update the fields as needed. Ensure that **iOS Swift** is the selected language. Click **Create**.
 
-## Step 3. Add the {{site.data.keyword.cloudant_short_notm}} service
+## Add the {{site.data.keyword.cloudant_short_notm}} service
 {: #resources-swift}
+{: step}
 
 You can now add services to your Swift application. For this tutorial, add the {{site.data.keyword.cloudant_short_notm}} service to your Swift app, which creates a fully managed, distributed `JSON` document database. Cloudant powers your app with scalability, high availability, and durability in a lightweight framework that keeps your data safe and in sync.
 
@@ -88,8 +98,9 @@ You can now add services to your Swift application. For this tutorial, add the {
 5. In the **Services** card, click the Actions icon ![Actions icon](../icons/actions-icon-vertical.svg), and select **Open dashboard**.
 6. Select **Launch Cloudant Dashboard** to begin creating a database and JSON documents.
 
-## Step 4. Download the code and setting up client SDKs
+## Download the code and setting up client SDKs
 {: #run-locally-swift}
+{: step}
 
 To download the code, click **Download code** on the App details page. The downloaded code includes the [SwiftCloudant SDK](https://github.com/cloudant/swift-cloudant){: external}, as well as some basic initialization code. The client SDKs are available on CocoaPods and Swift Package Manager. This solution uses CocoaPods.
 
@@ -104,8 +115,9 @@ To download the code, click **Download code** on the App details page. The downl
   ```
   {: codeblock}
 
-## Step 5. Configure the app to use your new database
+## Configure the app to use your new database
 {: #config-db-swift}
+{: step}
 
 1. Open the file name that ends in `.xcworkspace` with Xcode, and navigate to `ViewController.swift`. `SwiftCloudant` is the core Cloudant SDK. `CouchDBClient` is a class of `SwiftCloudant` and initialized in `ViewController.swift`.
 
@@ -127,8 +139,9 @@ To download the code, click **Download code** on the App details page. The downl
   The service credentials are part of the `BMSCredentials.plist` file.
   {: note}
 
-## Step 6. Build out your database operations
+## Build out your database operations
 {: #build_ops-swift}
+{: step}
 
 Now that you have a working database connection and SDK set up, you can begin building out the basic [create, read, update, and destroy operations](/docs/swift/data?topic=swift-cloudant) for your particular use case.
 
