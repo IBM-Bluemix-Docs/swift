@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-12-10"
 
 keywords: chatbot swift, virtual assistant swift, assistant swift, watson swift starter, assistantv2 swift, watson sdk swift, add chatbot swift, add assistant swift
 
@@ -110,7 +110,7 @@ The following samples help you add {{site.data.keyword.conversationshort}} capab
   ```
   {: codeblock}
 
-  **Tip**: This example saves the context to state. For a better understanding of this object and how to adapt it for your use case, see the [context variable documentation](/docs/assistant?topic=assistant-dialog-runtime#dialog-runtime-context-var-json). Check out the [version parameter documentation](https://{DomainName}/apidocs/assistant#versioning){: external} or use the date that the {site.data.keyword.conversationshort}} service was created.
+  **Tip**: This example saves the context to state. For a better understanding of this object and how to adapt it for your use case, see the [context variable documentation](/docs/assistant?topic=assistant-dialog-runtime-context). Check out the [version parameter documentation](https://{DomainName}/apidocs/assistant#versioning){: external} or use the date that the {site.data.keyword.conversationshort}} service was created.
 
 3. Initialize the conversation. Depending on how your assistant is configured, it can provide an initial response to the user:
   ```swift

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-07-10"
+lastupdated: "2020-12-10"
 
 keywords: swift logging, ios logging, debug swift, add logging swift, heliumlogger swift, loggerapi swift, logger swift, starter kit swift logger
 
@@ -27,9 +27,9 @@ Given the transient nature of processes in cloud environments, logs must be coll
 ## Adding logging to your Swift app
 {: #logging-add}
 
-[HeliumLogger](https://github.com/IBM-Swift/HeliumLogger){: external} is a popular lightweight logging framework for Swift, and provides many native benefits such as logging to standard output and different log levels.
+[HeliumLogger](https://github.com/Kitura/HeliumLogger){: external} is a popular lightweight logging framework for Swift, and provides many native benefits such as logging to standard output and different log levels.
 
-[LoggerAPI](https://github.com/IBM-Swift/LoggerAPI){: external} is the logger protocol that provides a common logging interface for different kinds of loggers in Swift.
+[LoggerAPI](https://github.com/Kitura/LoggerAPI){: external} is the logger protocol that provides a common logging interface for different kinds of loggers in Swift.
 
 To use `HeliumLogger`, add the following code to the **dependencies:** section in your `Package.swift` for all appropriate targets:
 ```swift
@@ -49,9 +49,9 @@ Log.info("This is an informational log message.")
 ```
 {: codeblock}
 
-In the provided example, the [log level](http://ibm-swift.github.io/HeliumLogger/){: external} was explicitly set to `.verbose`, which is the default.
+In the provided example, the [log level](https://github.com/Kitura/HeliumLogger){: external} was explicitly set to `.verbose`, which is the default.
 
-For more information about customizing the log messages, see the official [HeliumLogger API reference documentation](http://ibm-swift.github.io/HeliumLogger/){: external}.
+For more information about customizing the log messages, see the official [HeliumLogger API reference documentation](https://github.com/Kitura/HeliumLogger){: external}.
 
 ## Logging with starter kits
 {: #logging-starterkits}
@@ -62,7 +62,7 @@ Swift apps that are created by using the {{site.data.keyword.cloud_notm}} App Se
 ```
 {: screen}
 
-These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli?topic=cli-ibmcloud_commands_apps#ibmcloud_app_logs) and `[kubectl logs <deployment name>]`(https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: external}.
+These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by [`ibmcloud app logs --recent <APP_NAME>`](/docs/cli?topic=cli-ibmcloud_commands_apps#ibmcloud_app_logs) and [`kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: external}.
 
 In the `/Sources/AppName/main.swift` file, you can see the following code:
 ```swift
