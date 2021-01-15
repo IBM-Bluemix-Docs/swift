@@ -21,9 +21,11 @@ subcollection: swift
 # {{site.data.keyword.visualrecognitionshort}}
 {: #recognition}
 
-{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted. {: deprecated}
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted.
+{: deprecated}
 
 The {{site.data.keyword.visualrecognitionfull}} service enables your app to quickly and accurately tag, classify, and train visual content by using machine learning. The service can help to classify virtually any visual content, train your own custom model in minutes, and detect faces.
+{: shortdesc}
 
 ## How it works
 {: #how-it-works-recognition}
