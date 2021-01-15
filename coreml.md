@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-06-05"
+  years: 2018, 2021
+lastupdated: "2021-01-07"
 
 keywords: coreml swift, core ml swift, watson swift core, create model swift, image classification swift, version parameter swift, swift coreml watson
 
@@ -17,9 +17,12 @@ subcollection: swift
 {:pre: .pre}
 {:gif: data-image-type='gif'}
 {:external: target="_blank" .external}
+{:deprecated: .deprecated}
 
 # Using Core ML with Watson
 {: #swift-coreml}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted. {: deprecated}
 
 With [Core ML](https://developer.apple.com/documentation/coreml){: external}, you can integrate a broad variety of machine learning model types into your app. In addition to supporting extensive deep learning with over 30 layer types, it also supports standard models such as tree ensembles, SVMs, and generalized linear models. Instead of sending data remotely to be analyzed, Core ML uses low-level technologies, such as Metal and Accelerate, to seamlessly take advantage of the CPU and GPU to provide maximum performance and efficiency.
 

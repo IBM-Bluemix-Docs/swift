@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-06"
+  years: 2018, 2021
+lastupdated: "2021-01-07"
 
 keywords: swift visual recognition, train swift, cocoapods swift, swift sdk install, starter kit watson swift, image swift classify, machine learning swift
 
@@ -16,9 +16,12 @@ subcollection: swift
 {:pre: .pre}
 {:tip: .tip}
 {:external: target="_blank" .external}
+{:deprecated: .deprecated}
 
 # {{site.data.keyword.visualrecognitionshort}}
 {: #recognition}
+
+{{site.data.keyword.visualrecognitionfull}} is discontinued. Existing instances are supported until 1 December 2021, but as of 7 January 2021, you can't create instances. Any instance that exists on 1 December 2021 will be deleted. {: deprecated}
 
 The {{site.data.keyword.visualrecognitionfull}} service enables your app to quickly and accurately tag, classify, and train visual content by using machine learning. The service can help to classify virtually any visual content, train your own custom model in minutes, and detect faces.
 
