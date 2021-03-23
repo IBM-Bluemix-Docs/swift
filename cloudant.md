@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-07-10"
+  years: 2017, 2021
+lastupdated: "2021-03-19"
 
 keywords: cloudant swift, store data swift, dbaas swift, cloudant instance swift, initialize sdk swift, create document swift, read document swift, delete document swift
 
@@ -149,7 +149,7 @@ Is everything configured correctly? Test it out!
 2. Return to the {{site.data.keyword.cloudant_short_notm}} service instance previously created in your web browser, and open the service dashboard.
 3. Select the database that is used, and you can see the documents in the dashboard.
 
-Having trouble? Check out the [{{site.data.keyword.cloudant_short_notm}} API Reference](/docs/Cloudant?topic=Cloudant-api-reference-overview#api-reference-overview).
+Having trouble? Check out the [{{site.data.keyword.cloudant_short_notm}} API Reference](/apidocs/cloudant#introduction).
 
 ## Next steps
 {: #cloudant_next notoc}
