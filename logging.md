@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-12-10"
+  years: 2018, 2021
+lastupdated: "2021-04-01"
 
 keywords: swift logging, ios logging, debug swift, add logging swift, heliumlogger swift, loggerapi swift, logger swift, starter kit swift logger
 
@@ -76,7 +76,7 @@ The log level is explicitly set to `.info` to log informational level messages l
 ## Next steps
 {: #next-logging notoc}
 
-Learn more about viewing logs in each deployment environment:
-* [Managing Kubernetes cluster logs with IBM Log Analysis with LogDNA](/docs/Log-Analysis-with-LogDNA?topic=Log-Analysis-with-LogDNA-kube)
-* [Managing logs from CF resources](/docs/Log-Analysis-with-LogDNA?topic=Log-Analysis-with-LogDNA-monitor_cfapp_logs)
-* [{{site.data.keyword.openwhisk}} Logs & Monitoring](/docs/openwhisk?topic=openwhisk-logs)
+Learn more about viewing logs in the following deployment environments:
+* [Managing Kubernetes cluster logs with {{site.data.keyword.la_full_notm}}](/docs/log-analysis?topic=log-analysis-kube)
+* [Viewing logs in Cloud Foundry](/docs/log-analysis?topic=log-analysis-monitor_cfapp_logs)
+* [Viewing logs in {{site.data.keyword.openwhisk}}](/docs/openwhisk?topic=openwhisk-logs)
