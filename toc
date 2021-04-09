@@ -52,6 +52,11 @@ Programming with Swift on IBM Cloud
     [Swift@IBM](https://developer.ibm.com/technologies/swift/)
     [Code Patterns](https://developer.ibm.com/technologies/swift/patterns/)
     [Mobile development](https://developer.ibm.com/technologies/mobile/)
+
+    {: .topicgroup}
+    Related links
+        [IBM Developer: Swift](https://developer.ibm.com/languages/swift/)
+        [IBM Cloud Architectures](https://www.ibm.com/cloud/architecture/architectures)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
